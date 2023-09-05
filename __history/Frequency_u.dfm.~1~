@@ -1,0 +1,152 @@
+object frmFrequency: TfrmFrequency
+  Left = 0
+  Top = 0
+  Caption = 'Frequency Finder '#55357#56589
+  ClientHeight = 227
+  ClientWidth = 467
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblDataHeader: TLabel
+    Left = 8
+    Top = 5
+    Width = 27
+    Height = 13
+    Caption = 'Data:'
+  end
+  object lblResultsHeader: TLabel
+    Left = 143
+    Top = 111
+    Width = 39
+    Height = 13
+    Caption = 'Results:'
+  end
+  object lblFrequency: TLabel
+    Left = 277
+    Top = 106
+    Width = 55
+    Height = 13
+    Caption = 'Frequency:'
+  end
+  object lstData: TListBox
+    Left = 8
+    Top = 19
+    Width = 129
+    Height = 200
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object btnAdd: TButton
+    Left = 143
+    Top = 19
+    Width = 75
+    Height = 25
+    Caption = 'Add Data'
+    TabOrder = 1
+    OnClick = btnAddClick
+  end
+  object btnDelete: TButton
+    Left = 143
+    Top = 50
+    Width = 75
+    Height = 25
+    Caption = 'Delete'
+    TabOrder = 2
+    OnClick = btnDeleteClick
+  end
+  object pnlFrequency: TPanel
+    Left = 276
+    Top = 8
+    Width = 183
+    Height = 89
+    TabOrder = 3
+    object lblEndHeader: TLabel
+      Left = 12
+      Top = 38
+      Width = 22
+      Height = 13
+      Caption = 'End:'
+    end
+    object lblStartHeader: TLabel
+      Left = 6
+      Top = 11
+      Width = 28
+      Height = 13
+      Caption = 'Start:'
+    end
+    object edtStartRange: TEdit
+      Left = 40
+      Top = 8
+      Width = 121
+      Height = 21
+      NumbersOnly = True
+      TabOrder = 0
+    end
+    object edtEndRange: TEdit
+      Left = 40
+      Top = 35
+      Width = 121
+      Height = 21
+      NumbersOnly = True
+      TabOrder = 1
+    end
+    object btnScan: TButton
+      Left = 64
+      Top = 62
+      Width = 75
+      Height = 22
+      Caption = 'Scan Data'
+      TabOrder = 2
+      OnClick = btnScanClick
+    end
+  end
+  object memResults: TMemo
+    Left = 143
+    Top = 130
+    Width = 316
+    Height = 89
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object pnlCancel: TPanel
+    Left = 143
+    Top = 81
+    Width = 75
+    Height = 25
+    Caption = 'Reset'
+    Color = clRed
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 5
+    OnClick = pnlCancelClick
+  end
+  object edtFrequency: TEdit
+    Left = 338
+    Top = 103
+    Width = 121
+    Height = 19
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object sedValue: TSpinEdit
+    Left = 224
+    Top = 19
+    Width = 33
+    Height = 24
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 7
+    Value = 0
+  end
+end

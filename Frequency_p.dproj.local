@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/09/03 10:51:59.768.pas,C:\Users\pilla\OneDrive\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\pilla\OneDrive\Documents\Delphi Projects (Personal)\Frequency Finder\Frequency_u.pas</Transaction>
+    <Transaction>2023/09/03 10:51:59.768.dfm,C:\Users\pilla\OneDrive\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\pilla\OneDrive\Documents\Delphi Projects (Personal)\Frequency Finder\Frequency_u.dfm</Transaction>
+    <Transaction>2023/09/03 10:52:06.918.dproj,C:\Users\pilla\OneDrive\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\pilla\OneDrive\Documents\Delphi Projects (Personal)\Frequency Finder\Frequency_p.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
